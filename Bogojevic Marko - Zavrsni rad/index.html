@@ -1,194 +1,142 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="UTF-8">
-    <title>Countless Sounds Recordings</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Bogojevic Marko">
-    <meta name="keywords" content="web,html,css,sass,html5,javascript,jquery,development">
-    
+    <title>Countless Sounds Rec.</title>
+    <link rel="stylesheet" type="text/css" href="css/site.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel="stylesheet" type="text/css" href="css/slick.css">
-    <link rel="stylesheet" type="text/css" href="css/normalise.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/style-responsive.css">
-
-
 </head>
-
 <body>
-    <!--Main container-->
-
-    <div class="container">
-
-        <header>
-            <div class="logo">
-                <a href="#">   
-                        <img src="img/logo150x150.jpg" alt="cslogo">
-                    </a>
-            </div>
-
-            <div class="logo-mobile">
-                <a href="#">   
-                        <img src="img/logo150x150.jpg" alt="cslogo">
-                    </a>
-            </div>
-
-            <div class="banner">
-                Countless &nbsp Sounds &nbsp Recordings
-            </div>
-
-        </header>
-
-
-        <!--NavMenuItems-->
-        <ul class="navigation">
-            <li>
-                <a href="#">Home</a>
-            </li>
-
-            <li>
-                <a href="#">About Us</a>
-            </li>
-
-            <li>
-                <a href="#">Artists</a>
-
-                <ul class="navigation-submenu">
-                    <li><a href="#" target="_blank">Reversso</a></li>
-                    <li><a href="#" target="_blank">Narasimha</a></li>
-                    <li><a href="#" target="_blank">Mareza</a></li>
-                    <li><a href="#" target="_blank">Digital Code</a></li>
-                    <li><a href="#" target="_blank">Gate9</a></li>
-                    <li><a href="#" target="_blank">Tim Jackman</a></li>
-                    <li><a href="#" target="_blank">Michael Rogel</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="#">Cs on web</a>
-
-                <ul class="navigation-submenu">
-                    <li><a href="https://www.beatport.com/label/countless-sounds/55622/tracks" target="_blank">Beatport</a></li>
-                    <li><a href="https://www.facebook.com/countlesssounds" target="_blank">Facebook</a></li>
-                    <li><a href="https://www.youtube.com/user/GoodVibeHappyPeople" target="_blank">You Tube</a></li>
-                    <li><a href="https://soundcloud.com/countless_sounds" target="_blank">Soundcloud</a></li>
-                    <li><a href="https://www.instagram.com/countlesssounds" target="_blank">Instagram</a></li>
-                    <li><a href="https://www.discogs.com/user/CountlessSounds" target="_blank">Discogs</a></li>
-                    <li><a href="https://wavo.me/countlesssounds" target="_blank">Wavo</a></li>
-                    <li><a href="https://www.residentadvisor.net/user-profile.aspx?name=countlesssounds" target="_blank">Ra</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="#">Releases</a>
-            </li>
-
-            <li>
-                <a href="#">News</a>
-            </li>
-        </ul>
-
-        <!--NavMenuItems END-->
-
-
-
-        <!--About section-->
-        <div class="row">
-
-            <div class="col col-6">
-
-                <h1>About us</h1>
-
-                <section class="cs-info">
-                    Countless sounds records is the record label from Belgrade, capital city of Serbia, that deals with publishing and promoting unusual and experimental dance music of various musical genres such as:
-
-
-                    <ul class="genres">
-                        <li>Electronic</li>
-                        <li>House</li>
-                        <li>Trance</li>
-                        <li>Dubstep</li>
-                        <li>Drum and bass</li>
-                        <li>Chill</li>
-                        <li>Breaks</li>
-                    </ul>
-
-
-
-                    If you think that you going beyond the boundaries of music you can send us your demo recordings via:<br>
-
-                    <a href="#">countless.sound@gmail.com</a>
-
-                </section>
-            </div>
-
-            <!--Gallery section-->
-            <div class="col col-6">
-                <div class="main-slider">
-                    <div class="slide"><img src="img/gallery/dc.png" alt="dc" /></div>
-                    <div class="slide"><img src="img/gallery/mr.png" alt="mr" /></div>
-                    <div class="slide"><img src="img/gallery/rev.png" alt="rev" /></div>
-                    <div class="slide"><img src="img/gallery/tj.png" alt="tj" /></div>
-                </div>
-            </div>
-
+    <div class="header">
+        <div id="logo">
+            <a href="#"> 
+            <img id="cs" 
+                 src="images/logo150x150.jpg" alt="cslogo"></a>
         </div>
 
+        <div id="banner">
+            <h1 id="title">COUNTLESS &nbsp SOUNDS &nbsp RECORDINGS</h1>
+        </div>
+    </div>
+    <!--endhead-->
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="button">
+            <a href="index.html">HOME</a></button>
+        </div>
 
-        <!--Soundcloud iframe-->
+        <div class="dropdown">
+            <button class="button"><a href="about.html">ABOUT US</a></button>
+        </div>
 
-        <div class="row">
-            <div class="col col-12 iframe-holder">
-                <h2>Our releases</h2>
-
-                <iframe scrolling="yes" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/1803633&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-
+        <div class="dropdown">
+            <button class="button"><a href="#">ARTISTS</a></button>
+            <div class="list">
+                <a href="#">REVERSSO</a>
+                <a href="#">NARASIMHA</a>
+                <a href="#">MAREZA</a>
+                <a href="#">DIGITAL CODE</a>
+                <a href="#">GATE9</a>
+                <a href="#">TIM JACKMAN</a>
+                <a href="#">MICHAEL ROGEL</a>
             </div>
         </div>
 
-
-        <!--News-->
-
-        <div class="headline-holder">
-            News
+        <div class="dropdown">
+            <button class="button">CS ON WEB</button>
+            <div class="list">
+                <a href="https://www.beatport.com/label/countless-sounds/55622/tracks" target="_blank">BEATPORT</a>
+                <a href="https://www.facebook.com/countlesssounds" target="_blank">FACEBOOK</a>
+                <a href="https://www.youtube.com/user/GoodVibeHappyPeople" target="_blank">YOU TUBE</a>
+                <a href="https://soundcloud.com/countless_sounds" target="_blank">SOUNDCLOUD</a>
+                <a href="https://www.instagram.com/countlesssounds" target="_blank">INSTAGRAM</a>
+                <a href="https://www.discogs.com/user/CountlessSounds" target="_blank">DISCOGS</a>
+                <a href="https://wavo.me/countlesssounds" target="_blank">WAVO</a>
+                <a href="https://www.residentadvisor.net/user-profile.aspx?name=countlesssounds" target="_blank">RA</a>
+            </div>
         </div>
 
-
-        <!--You Tube iframes / news -->
-        <div class="row">
-
-            <div class="col col-6 iframe-holder">
-                <h3>New DJ SET from Digital Code!</h3>
-                <iframe frameborder="no" src="https://www.youtube.com/embed/YY4p13MvshM" allowfullscreen></iframe>
+        <div class="dropdown">
+            <button class="button"><a href="news.html">NEWS</a></button>
+            <div class="list">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
             </div>
-
-            <div class="col col-6 iframe-holder">
-                <h3>New track from our artist Reverso!</h3>
-                <iframe frameborder="no" src="https://www.youtube.com/embed/ntGFnAvYLfs" allowfullscreen></iframe>
-            </div>
-
-            <div class="col col-6 iframe-holder">
-                <h3>Narasimha - Padma Preview (Demo Album)</h3>
-                <iframe scrolling="yes" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/262353266&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-            </div>
-
-            <div class="col col-6 iframe-holder">
-                <h3>New EP Funky Spider from Digital Code</h3>
-                <iframe class="spider" scrolling="yes" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/229669050&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-            </div>
-
         </div>
-        <!--Footer-->
-        <footer>
-            Coutless Sounds Recordings <br> Developed by Bogojević Marko
-        </footer>
+
+        <div class="dropdown">
+            <button class="button"><a href="releases.html">RELEASES</a></button>
+            <div class="list">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <br>
+        <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+    </div>
+    <div class="blank">
+        <h1>NEWS</h1>
     </div>
 
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/slick.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+    <div class="container3">
+        <div class="box">
+            <div>
+                <br>
+                <br>
+                <h1 id="artinfo1">New DJ SET from Digital Code!</h1>
+                <br>
+                <iframe id="digiset1" 
+                        src="https://www.youtube.com/embed/YY4p13MvshM">								
+				</iframe>
+            </div>
+        </div>
+
+        <div class="box">
+            <div>
+                <br>
+                <br>
+                <h1 id="artinfo2">New track by our artist Reverso!</h1>
+                <br>
+                <iframe id="reversso" 
+                        src="https://www.youtube.com/embed/ntGFnAvYLfs">								
+				</iframe>
+            </div>
+        </div>
+
+        <div class="box">
+            <div>
+                <br>
+                <br>
+                <h1 id="artinfo3">More from Digital Code</h1>
+                <br>
+                <iframe id="digiset2" 
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/265520069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">	
+				</iframe>
+            </div>
+        </div>
+
+        <div class="box">
+            <div>
+                <br>
+                <br>
+                <h1 id="artinfo4">Digital Code-Funky Spider EP</h1>
+                <br>
+                <iframe id="digiset3" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/229669050&color=%238d9a96&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <footer>
+            <p>Developed by Marko Bogojevic</p>
+        </footer>
+    </div>
 
 </body>
 
