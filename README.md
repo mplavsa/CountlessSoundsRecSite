@@ -1,3 +1,3 @@
 # Countless-Sounds-Rec-Site-
 
-Made during "Kampster's Web Development - CSS, HTML, JavaScript" course
+Made during "Kampster's Web Development - CSS/SASS, HTML, JavaScript" course
