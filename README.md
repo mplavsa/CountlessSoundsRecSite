@@ -1,4 +1,4 @@
-# Countless-Sounds-Rec-Site-
+# Countless-Sounds-Rec-Site
 
 Made during the "Kampster's Web Development - CSS/SASS, HTML, JavaScript" course.
 
